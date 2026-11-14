@@ -13,7 +13,6 @@ set -euo pipefail
 
 cd "$(dirname "${BASH_SOURCE[0]}")"
 ID="com.github.elomkdn.bowl"
-OLD_IDS=(com.github.elomkdn.fiolo)  # its former name: replaced by this one
 
 if [[ "${1:-}" == "--uninstall" || "${1:-}" == "-u" ]]; then
   kpackagetool6 -t Plasma/Applet -r "$ID"
@@ -25,12 +24,6 @@ if command -v msgfmt >/dev/null; then
   mkdir -p package/contents/locale/fr/LC_MESSAGES
   msgfmt -o "package/contents/locale/fr/LC_MESSAGES/plasma_applet_$ID.mo" po/fr.po
 fi
-
-for old in "${OLD_IDS[@]}"; do
-  if kpackagetool6 -t Plasma/Applet -s "$old" >/dev/null 2>&1; then
-    kpackagetool6 -t Plasma/Applet -r "$old"
-  fi
-done
 
 if kpackagetool6 -t Plasma/Applet -s "$ID" >/dev/null 2>&1; then
   kpackagetool6 -t Plasma/Applet -u package

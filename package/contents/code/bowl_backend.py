@@ -25,7 +25,6 @@ from pathlib import Path
 
 HOME = Path.home()
 CACHE = Path(os.environ.get("XDG_CACHE_HOME", HOME / ".cache")) / "bowl"
-OLD_CACHES = (CACHE.with_name("fiolo"), CACHE.with_name("lumignon"))  # its former names
 USAGE = CACHE / "usage.json"        # Claude quota
 CODEX_STATE = CACHE / "codex.json"  # Codex plan
 TOKENS = CACHE / "tokens.json"
@@ -634,12 +633,6 @@ def cmd_run(launch):
 
 
 def main():
-    old = next((d for d in OLD_CACHES if d.is_dir()), None)
-    if not CACHE.exists() and old:
-        try:
-            old.rename(CACHE)
-        except OSError:
-            pass
     CACHE.mkdir(mode=0o700, parents=True, exist_ok=True)  # also the Haiku request's working directory
     CACHE.chmod(0o700)
     args = sys.argv[1:]
