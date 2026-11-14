@@ -6,8 +6,8 @@ panel, and watch its bowl empty as your subscription quota goes.
 ![Bowl: the fish in the panel and its popup](preview/bowl.png)
 
 - **The fish**: a little fish swims in its round bowl, in pixel art and the colors of
-  [Catppuccin Mocha](https://catppuccin.com/palette). The water is your quota: 9 rows that
-  go down as you use it, teal while more than half is left, then yellow, peach from a
+  [Catppuccin Mocha](https://catppuccin.com/palette). The water is your 5-hour window: 9 rows
+  that go down as you use it, teal while more than half is left, then yellow, peach from a
   quarter, and red near the end. It swims and blows bubbles at rest, darts about
   with a trail of bubbles while an agent is at work, lingers near the bottom when a quarter
   is left, falls asleep on the pebbles after half an hour without any, and comes up to the

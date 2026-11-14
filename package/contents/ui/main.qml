@@ -34,11 +34,13 @@ PlasmoidItem {
     readonly property string projectsJson: JSON.stringify(current.projects || [])
     readonly property var projects: JSON.parse(projectsJson)
 
-    // The window closest to its limit fills the bowl
+    // The shortest window, the 5 hours, fills the bowl: it is the one that moves as you work.
+    // A longer window at its limit still dries the bowl up, through `limited`.
     readonly property var mainWindow: {
+        const span = w => w.minutes || Infinity
         let best = null
         for (const w of windows)
-            if (!best || currentUse(w) > currentUse(best)) best = w
+            if (!best || span(w) < span(best)) best = w
         return best
     }
     readonly property real usedMain: currentUse(mainWindow)
