@@ -1,0 +1,127 @@
+msgid ""
+msgstr ""
+"Language: fr\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: package/contents/ui/FullView.qml:25
+#, kde-format
+msgid "Out of quota around %1 at this pace"
+msgstr "Plus de quota vers %1 à ce rythme"
+
+#: package/contents/ui/FullView.qml:29
+#, kde-format
+msgid "%1 tokens today"
+msgstr "%1 tokens aujourd’hui"
+
+#: package/contents/ui/FullView.qml:32
+#, kde-format
+msgid "No known limit · %1"
+msgstr "Pas de quota connu · %1"
+
+#: package/contents/ui/FullView.qml:177
+msgid "Recent projects"
+msgstr "Projets récents"
+
+#: package/contents/ui/FullView.qml:201
+msgid "Resume the last session"
+msgstr "Reprendre la dernière session"
+
+#: package/contents/ui/FullView.qml:220 package/contents/ui/main.qml:100
+msgid "Refresh usage"
+msgstr "Actualiser la conso"
+
+#: package/contents/ui/FullView.qml:229 package/contents/ui/main.qml:90
+#, kde-format
+msgid "Open %1 in the home folder"
+msgstr "Ouvrir %1 dans le dossier personnel"
+
+#: package/contents/ui/UsageMeter.qml:29
+#, kde-format
+msgctxt "a model's own limit: model, share used"
+msgid "%1: %2%"
+msgstr "%1 : %2 %"
+
+#: package/contents/ui/UsageMeter.qml:31
+msgid "Not measured yet"
+msgstr "Pas encore de mesure"
+
+#: package/contents/ui/UsageMeter.qml:67
+#, kde-format
+msgctxt "a share of the quota"
+msgid "%1%"
+msgstr "%1 %"
+
+#: package/contents/ui/main.qml:71
+#, kde-format
+msgid "Limit reached. %1"
+msgstr "Quota atteint. %1"
+
+#: package/contents/ui/main.qml:72
+#, kde-format
+msgctxt "window: share used"
+msgid "%1: %2%"
+msgstr "%1 : %2 %"
+
+#: package/contents/ui/main.qml:73 package/contents/ui/main.qml:95
+msgid "Show usage"
+msgstr "Afficher la conso"
+
+#: package/contents/ui/main.qml:124
+msgid "Limit"
+msgstr "Limite"
+
+#: package/contents/ui/main.qml:125
+#, kde-format
+msgctxt "a number of days, short"
+msgid "%1 d"
+msgstr "%1 j"
+
+#: package/contents/ui/main.qml:126
+#, kde-format
+msgctxt "a number of hours, short"
+msgid "%1 h"
+msgstr "%1 h"
+
+#: package/contents/ui/main.qml:127
+#, kde-format
+msgctxt "a number of minutes, short"
+msgid "%1 min"
+msgstr "%1 min"
+
+#: package/contents/ui/main.qml:135
+msgid "Window free"
+msgstr "Fenêtre libre"
+
+#: package/contents/ui/main.qml:136
+#, kde-format
+msgid "Resets in %1 min"
+msgstr "Reset dans %1 min"
+
+#: package/contents/ui/main.qml:137
+#, kde-format
+msgid "Resets in %1 h %2"
+msgstr "Reset dans %1 h %2"
+
+#: package/contents/ui/main.qml:138
+#, kde-format
+msgid "Resets %1"
+msgstr "Reset %1"
+
+#: package/contents/ui/main.qml:182
+#, kde-format
+msgid "%1 could not be found."
+msgstr "%1 est introuvable."
+
+#: package/contents/ui/main.qml:183
+msgid "This folder no longer exists."
+msgstr "Ce dossier n’existe plus."
+
+#: package/contents/ui/main.qml:184
+msgid "Could not open a terminal."
+msgstr "Impossible d’ouvrir un terminal."
+
+#: package/contents/ui/main.qml:194
+#, kde-format
+msgid "%1 stopped with an error. Press Enter to close this window."
+msgstr "%1 s’est arrêté sur une erreur. Appuie sur Entrée pour fermer cette fenêtre."

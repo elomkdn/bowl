@@ -1,0 +1,20 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "elomkpadonou@gmail.com",
+                "Name": "Elom"
+            }
+        ],
+        "Category": "Utilities",
+        "Description": "A little fish in your panel: open Claude Code, Codex or OpenCode in a terminal, and watch its bowl empty as your subscription quota goes",
+        "Description[fr]": "Un petit poisson dans ton panneau : ouvre Claude Code, Codex ou OpenCode dans le terminal, et regarde son bocal se vider au fil de ton quota d’abonnement",
+        "Icon": "dialog-messages",
+        "Id": "com.github.elomkdn.bowl",
+        "License": "GPL-3.0-or-later",
+        "Name": "Bowl",
+        "Website": "https://github.com/elomkdn/bowl"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
