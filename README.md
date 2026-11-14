@@ -15,6 +15,8 @@ panel, and watch its bowl empty as your subscription quota goes.
   A middle click opens the agent in your terminal, in the last
   project it worked on, with its usual permissions. If it fails at once, the window stays
   open so that you can read why.
+
+  ![The fish at rest, while an agent is at work, under the mouse, with a quarter left, asleep, and at the limit](preview/moods.png)
 - **The popup**, on click:
   - a tab for each agent installed, which also picks the agent that opens. Drag a tab to
     change the order;

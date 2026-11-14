@@ -22,7 +22,7 @@ Canvas {
     readonly property color pebbleLight: "#7f849c" // overlay1
     readonly property color weed: "#a6e3a1"      // green
     readonly property color bubble: "#f5e0dc"    // rosewater
-    readonly property color zzz: "#7f849c"       // overlay1
+    readonly property color zzz: "#b4befe"       // lavender
     readonly property color eye: "#11111b"       // crust
     readonly property color fishBody: "#fab387"  // peach
     readonly property color fishFin: "#eba0ac"   // maroon
@@ -171,7 +171,7 @@ Canvas {
 
         // ---- Its z, beside the lip
         if (mood === "sleep" && f % 3 >= 1) {
-            px(13, 0, zzz, 3, 1); px(14, 1, zzz); px(13, 2, zzz, 3, 1)
+            px(13, 0, zzz, 3, 1); px(15, 1, zzz); px(13, 2, zzz); px(13, 3, zzz, 3, 1)
         }
     }
 }
